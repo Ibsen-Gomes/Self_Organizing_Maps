@@ -479,7 +479,7 @@ def Per_count(real_target, predict_target):
             
     percentage_count = (l-count)/l*100
     
-    print(f'The value of percentage is {percentage_count:.3f}.')
+    print(f'The count of successes in percentage is : {percentage_count:.3f}.')
 
 
 # Crossplot of properties:
