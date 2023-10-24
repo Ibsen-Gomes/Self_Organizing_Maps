@@ -463,6 +463,26 @@ def SOM_class(data_class, updated_som, label_map, metric='euclidian'):
     return index
 
 
+# Validation by percentage of success:
+
+def Per_count(real_target, predict_target):
+    '''
+    '''
+    
+    count = 0
+    l = len(real_target)
+    for i in range(l):
+        if real_target[i] == predict_target[i]:
+            count +=0
+        else:
+            count +=1
+            
+    percentage_count = (l-count)/l*100
+    
+    print(f'The value of percentage is {percentage_count:.3f}.')
+    #return percentage_count
+
+
 # Crossplot of properties:
 
 def Crossplot(index, data_class, prop1, prop2):
