@@ -16,7 +16,7 @@ Competição: nesta etapa é selecionado o neurônio vencedor com melhor corresp
 
 Cooperação: a vizinhança do neurônio vencedor também é selecionado, ou seja, os neurônios dentro da região em "amarelo claro" na figura a;, também serão modificados;
 
-Adaptação: aqui são adaptados os pesos do neuro^nio vencedor, bem como os dos neurônios vizinhos na rede, fazendo com que estes se aproximem da amostra (ponto branco na  figura b).
+Adaptação: aqui são adaptados os pesos do neurônio vencedor, bem como os dos neurônios vizinhos na rede, fazendo com que estes se aproximem da amostra (ponto branco na  figura b).
 
 Após várias iterações, os Neurônios possuem novos pesos e a rede neural consegue representar as amostras, (figura c).
 
