@@ -75,4 +75,8 @@ Onde $n$ é a etapa do algoritmo, $\alpha$ é a taxa de aprendizagem e $h$ é a 
    
    2.5 classificação de outro poço independente mostrando crossplots e perfil geofísico.
 
-   
+Como resultado final, temos a classificação litológica na figura abaixo:
+
+![Classificação litológica do Self-Organizing Maps](https://github.com/Ibsen-Gomes/Self_Organizing_Maps/blob/main/figures/perfil_classificado.png)
+
+
