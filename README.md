@@ -43,7 +43,7 @@ O algoritmo SOM pode ser descrito nas seguintes etapas:
 
 5. Repita a partir do passo 2 até atingir o critério de parada
 
-Onde $n$ é a etapa do algoritmo, $\alpha$ é a taxa de aprendizagem que diminui a medida que passa as épocas $n$. E $h$ é a função de vizinhança, que depende da distância entre o $\mathbf{w}_{BMU}$ e os neurônios próximos $\mathbf{w}$. A função $h$ também é em função da época $n$, que tem o papel de diminuir a vizinhança quando $n$ aumenta.
+Onde $n$ é a época ou etapa do algoritmo, $\alpha$ é a taxa de aprendizagem que diminui a medida que passa as épocas $n$. E $h$ é a função de vizinhança, que depende da distância entre o $\mathbf{w}_{BMU}$ e os neurônios próximos $\mathbf{w}$. A função $h$ também é em função da época $n$, que tem o papel de diminuir a vizinhança quando $n$ aumenta.
 
 
 ### Sobre o projeto:
