@@ -10,13 +10,13 @@ O SOM é caracterizado por ser uma rede de camada única, definida ao longo de u
 ### Treinamento do Self-Organizing Maps:
 
 
-O treinamento do algoritmo Self Organization Maps (SOM) é normalmente dividido em dois estágios: competição, cooperação e adaptação. A figura abaixo mostra a dinâmica entre a rede SOM e as amostras (nuvem roxa).
+O treinamento do algoritmo Self Organization Maps (SOM) é normalmente dividido em dois estágios: competição, cooperação e adaptação. A figura abaixo mostra a dinâmica entre a rede SOM (grid em preto com neurônios nos vértices) e as amostras (nuvem roxa).
 
-Competição: nesta etapa é selecionado o neurônio vencedor com melhor correspondência em relação aos dados de entrada, (neurônio em amarelo forte na figura a);
+Competição: nesta etapa é selecionado o neurônio vencedor com melhor correspondência em relação aos dados de entrada, que é o neurônio destacado em "amarelo forte" na figura a;
 
-Cooperação: a vizinhança do neurônio vencedor também é selecionado (região em amarelo claro na figura a);
+Cooperação: a vizinhança do neurônio vencedor também é selecionado, ou seja, os neurônios dentro da região em "amarelo claro" na figura a;, também serão modificados;
 
-Adaptação: aqui são adaptados os pesos do vencedor, bem como os dos neurônios vizinhos imediatos da rede, fazendo com que estes se aproximem da amostra (ponto branco na  figura b).
+Adaptação: aqui são adaptados os pesos do neuro^nio vencedor, bem como os dos neurônios vizinhos na rede, fazendo com que estes se aproximem da amostra (ponto branco na  figura b).
 
 Após várias iterações, os Neurônios possuem novos pesos e a rede neural consegue representar as amostras, (figura c).
 
