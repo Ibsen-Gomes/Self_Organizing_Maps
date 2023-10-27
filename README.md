@@ -6,9 +6,10 @@ O SOM é caracterizado por ser uma rede de camada única, definida ao longo de u
 
 ![Arquitetura do Self-Organizing Maps](https://github.com/Ibsen-Gomes/Self_Organizing_Maps/blob/main/figures/latent_space.png)
 
+O SOM é comumente aplicado de forma não-supervisionada, porém aqui ele é aplicado de forma supervisionada. Cada amostra tem um label com valores de 0 até 5, representando um alvo. Com o avamço do treinamento da rede, os neurônios vão herdando esses labels que, posteriormente será usado para classificar um segundo banco de dados (outro poço, por exemplo). Esses labels podem representar difentes alvos dependendo da naturea do problema, neste projeto, cada label pode representar uma litologia como Folhelho, Arenito, Marga e etc.
+
 
 ### Treinamento do Self-Organizing Maps:
-
 
 O treinamento do algoritmo Self Organization Maps (SOM) é normalmente dividido em dois estágios: competição, cooperação e adaptação. A figura abaixo mostra a dinâmica entre a rede SOM (grid em preto com neurônios nos vértices) e as amostras (nuvem roxa).
 
@@ -42,7 +43,7 @@ O algoritmo SOM pode ser descrito nas seguintes etapas:
 
 5. Repita a partir do passo 2 até atingir o critério de parada
 
-Onde $n$ é a etapa do algoritmo, $\alpha$ é a taxa de aprendizagem e $h$ é a função de vizinhança.
+Onde $n$ é a etapa do algoritmo, $\alpha$ é a taxa de aprendizagem que diminui a medida que passa as épocas $n$. E $h$ é a função de vizinhança, que depende da distância entre o $\mathbf{w}_{BMU}$ e os neurônios próximos $\mathbf{w}$. A função $h$ também é em função da época $n$, que tem o papel de diminuir a vizinhança quando $n$ aumenta.
 
 
 ### Sobre o projeto:
@@ -63,7 +64,7 @@ Onde $n$ é a etapa do algoritmo, $\alpha$ é a taxa de aprendizagem e $h$ é a 
    
    1.7 classificação.
 
-3. No arquivo (https://github.com/Ibsen-Gomes/Self_Organizing_Maps/blob/main/SOM_notebook.ipynb) temos a exibição do método mostrando os resultados gráficos. Neste arquivo é possível encontrar:
+2. No arquivo (https://github.com/Ibsen-Gomes/Self_Organizing_Maps/blob/main/SOM_notebook.ipynb) temos a exibição do método mostrando os resultados gráficos. Neste arquivo é possível encontrar:
    
    2.1 exibição dos dados de poço sintético usado no treinamento;
    
