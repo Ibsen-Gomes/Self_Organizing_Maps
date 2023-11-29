@@ -1,0 +1,11 @@
+ Cod  R   G   B  A    Hex       Name
+  0   20  152 80 255  #149850   folhelho1
+  1   70  255 80 255  #46FF50   folhelho2
+  2   30  175 10 255  #1EAF0A   folhelho3
+  3   0   255 0  255  #00FF00   folhelho4
+  4   255 250 5 255   #FFFA05   arenito1
+  5   250  255 80 255 #FAFF50   arenito2
+  6   250  170 20 255 #FAAA14   conglomerado
+  7   0  0 120 255    #000078   marga1
+  8   0  0 220 255    #0000DC   marga2
+  9   100 200 255 255 #64C8FF   calcarenito 
